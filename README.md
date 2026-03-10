@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a00,30:1a1400,60:0d0d00,100:0a0a00&height=300&text=SURYA%20PRATAP%20SINGH&fontSize=35&fontColor=ffe600&fontAlignY=45&desc=SOFTWARE%20DEV%20%20%E2%96%AA%20%20MACHINE%20LEARNING%20%20%E2%96%AA%20%20AI%20SYSTEMS&descSize=13&descAlignY=65&descColor=ff00aa&animation=fadeIn&stroke=ffe600&strokeWidth=1&fontAlign=50&fontFamily=Press+Start+2P" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a00,30:1a1400,60:0d0d00,100:0a0a00&height=300&text=SURYA%20PRATAP%20SINGH&fontSize=52&fontColor=ffe600&fontAlignY=45&desc=SOFTWARE%20DEV%20%20%E2%96%AA%20%20MACHINE%20LEARNING%20%20%E2%96%AA%20%20AI%20SYSTEMS&descSize=13&descAlignY=65&descColor=ff00aa&animation=fadeIn&stroke=ffe600&strokeWidth=1&fontAlign=50&fontFamily=Oswald" width="100%"/>
 
 </div>
 
