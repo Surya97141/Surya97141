@@ -2,7 +2,18 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a00,30:1a1400,60:0d0d00,100:0a0a00&height=300&text=SURYA%20PRATAP%20SINGH&fontSize=52&fontColor=ffe600&fontAlignY=45&desc=SOFTWARE%20DEV%20%20%E2%96%AA%20%20MACHINE%20LEARNING%20%20%E2%96%AA%20%20AI%20SYSTEMS&descSize=13&descAlignY=65&descColor=ff00aa&animation=fadeIn&stroke=ffe600&strokeWidth=1&fontAlign=50&fontFamily=Oswald" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a00,30:1a1400,60:0d0d00,100:0a0a00&height=320&text=SURYA%20PRATAP%20SINGH&fontSize=52&fontColor=ffe600&fontAlignY=42&desc=B.Tech%20CSE%20%E2%80%94%20Data%20Science%20%20%E2%96%AA%20%20Galgotias%20College%20%7C%202024%E2%80%932028%0ASOFTWARE%20DEV%20%20%E2%96%AA%20%20MACHINE%20LEARNING%20%20%E2%96%AA%20%20AI%20SYSTEMS&descSize=13&descAlignY=63&descColor=ff00aa&animation=fadeIn&stroke=ffe600&strokeWidth=1&fontAlign=50&fontFamily=Oswald" width="100%"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+[![Profile Views](https://komarev.com/ghpvc/?username=Surya97141&color=ffe600&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Surya97141)&nbsp;
+[![Gmail](https://img.shields.io/badge/▸_MAIL-ff00aa?style=for-the-badge&logo=gmail&logoColor=0a0a00)](mailto:pratap742006@gmail.com)&nbsp;
+[![LinkedIn](https://img.shields.io/badge/▸_LINKEDIN-ffe600?style=for-the-badge&logo=linkedin&logoColor=0a0a00)](https://linkedin.com/in/surya-singh-b575591b5)&nbsp;
+[![GitHub](https://img.shields.io/badge/▸_GITHUB-ff6600?style=for-the-badge&logo=github&logoColor=0a0a00)](https://github.com/Surya97141)
 
 </div>
 
@@ -18,9 +29,7 @@
 
 <div align="center">
 
-[![Gmail](https://img.shields.io/badge/▸_MAIL-ff00aa?style=for-the-badge&logo=gmail&logoColor=0a0a00)](mailto:pratap742006@gmail.com)&nbsp;
-[![LinkedIn](https://img.shields.io/badge/▸_LINKEDIN-ffe600?style=for-the-badge&logo=linkedin&logoColor=0a0a00)](https://linkedin.com/in/surya-singh-b575591b5)&nbsp;
-[![GitHub](https://img.shields.io/badge/▸_GITHUB-ff6600?style=for-the-badge&logo=github&logoColor=0a0a00)](https://github.com/Surya97141)
+<img src="https://github-profile-trophy.vercel.app/?username=Surya97141&theme=onestar&no-frame=true&row=1&column=7&margin-w=4" width="100%"/>
 
 </div>
 
@@ -30,23 +39,36 @@
 
 <br/>
 
-```
-  ╔══════════════════════════════════════════════════════════════════════╗
-  ║  //// IDENTITY ////////////////////////////////////////////////////////║
-  ╠══════════════════════════════════════════════════════════════════════╣
-  ║                                                                      ║
-  ║   NAME    ::  Surya Pratap Singh                                     ║
-  ║   NODE    ::  Galgotias College of Engineering & Technology          ║
-  ║   SPEC    ::  B.Tech CSE — Data Science  [ 2024 :: 2028 ]           ║
-  ║   STATUS  ::  ████████████████████░░░░░  OPEN_TO_WORK                ║
-  ║   TARGET  ::  SWE  ▪  ML  ▪  AI AGENT SYSTEMS                       ║
-  ║                                                                      ║
-  ╚══════════════════════════════════════════════════════════════════════╝
-```
+<div align="center">
+
+<table>
+<thead>
+<tr><th colspan="2">⚡ &nbsp; IDENTITY NODE &nbsp; ⚡</th></tr>
+</thead>
+<tbody>
+<tr><td><b>NAME</b></td><td>Surya Pratap Singh</td></tr>
+<tr><td><b>NODE</b></td><td>Galgotias College of Engineering &amp; Technology</td></tr>
+<tr><td><b>SPEC</b></td><td>B.Tech CSE — Data Science &nbsp; [ 2024 → 2028 ]</td></tr>
+<tr><td><b>STATUS</b></td><td>🟡🟡🟡🟡🟡🟡🟡🟡⬛⬛ &nbsp; OPEN TO WORK</td></tr>
+<tr><td><b>TARGET</b></td><td>SWE &nbsp;▪&nbsp; ML &nbsp;▪&nbsp; AI AGENT SYSTEMS</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<br/>
 
 CS undergrad building at the intersection of **software development**, **machine learning**, and **autonomous AI systems**. Clean, modular code — and ML that works outside notebooks.
 
 Two things in the lab right now: **MAIRA** — an agent that audits ML research codebases — and a **Deep RL** environment for multi-agent aerial combat.
+
+<br/>
+
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Audiowide&weight=600&size=13&duration=2500&pause=700&color=FFE600&background=0A0A0000&center=true&vCenter=true&width=750&lines=%E2%9A%A1+BUILDING+%3A%3A+MAIRA+%E2%80%94+ML+Research+Automation+Agent+%5BACTIVE%5D;%E2%9A%A1+BUILDING+%3A%3A+DRL+Aerial+Combat+Sim+%E2%80%94+Multi-Agent+PPO+%5BACTIVE%5D;%E2%9A%A1+OPEN+TO+%3A%3A+SWE+%7C+ML+%7C+AI+Agent+Internships+%5BSEEKING%5D)](https://git.io/typing-svg)
+
+</div>
 
 <br/>
 
@@ -67,6 +89,12 @@ Two things in the lab right now: **MAIRA** — an agent that audits ML research 
 
 An AI agent that scans ML repositories and surfaces missing experiments — ablation studies, baseline gaps, hyperparameter sweeps researchers forget to run.
 
+<div align="center">
+<a href="https://github.com/Surya97141/MAIRA">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Surya97141&repo=MAIRA&bg_color=0a0a00&title_color=ffe600&icon_color=ff00aa&text_color=ccccaa&hide_border=true" />
+</a>
+</div>
+
 ```diff
 + Rule-based NLP pipelines extracting training configs and metadata from codebases
 + LLM-assisted workflow automation for experiment planning and reproducibility
@@ -80,6 +108,12 @@ An AI agent that scans ML repositories and surfaces missing experiments — abla
 <img src="https://img.shields.io/badge/02-0a0a00?style=for-the-badge"/>&nbsp;<img src="https://img.shields.io/badge/DRL_AERIAL_COMBAT_SIMULATION-ff6600?style=for-the-badge&logoColor=0a0a00"/>&nbsp;<img src="https://img.shields.io/badge/BUILDING-ff00aa?style=for-the-badge&labelColor=0a0a00"/>
 
 Custom OpenAI Gym-compatible RL environment for autonomous multi-agent aerial combat — built from scratch, not forked.
+
+<div align="center">
+<a href="https://github.com/Surya97141/DRL-Aerial-Combat">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Surya97141&repo=DRL-Aerial-Combat&bg_color=0a0a00&title_color=ff6600&icon_color=ffe600&text_color=ccccaa&hide_border=true" />
+</a>
+</div>
 
 ```diff
 + Decoupled agent / environment / logger — clean boundaries throughout
@@ -141,18 +175,16 @@ Disaster risk prediction prototype — Smart India Hackathon.
 
 <br/>
 
-![Python](https://img.shields.io/badge/Python-0a0a00?style=for-the-badge&logo=python&logoColor=ffe600)
-![C++](https://img.shields.io/badge/C++-0a0a00?style=for-the-badge&logo=cplusplus&logoColor=ff00aa)
-![Java](https://img.shields.io/badge/Java-0a0a00?style=for-the-badge&logo=openjdk&logoColor=ff6600)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0a0a00?style=for-the-badge&logo=scikit-learn&logoColor=ffe600)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-0a0a00?style=for-the-badge&logo=huggingface&logoColor=ff6600)
-![NumPy](https://img.shields.io/badge/NumPy-0a0a00?style=for-the-badge&logo=numpy&logoColor=ff00aa)
-![Pandas](https://img.shields.io/badge/Pandas-0a0a00?style=for-the-badge&logo=pandas&logoColor=ffe600)
-![Streamlit](https://img.shields.io/badge/Streamlit-0a0a00?style=for-the-badge&logo=streamlit&logoColor=ff6600)
-![Git](https://img.shields.io/badge/Git-0a0a00?style=for-the-badge&logo=git&logoColor=ff00aa)
-![GitHub](https://img.shields.io/badge/GitHub-0a0a00?style=for-the-badge&logo=github&logoColor=ffe600)
-![Linux](https://img.shields.io/badge/Linux-0a0a00?style=for-the-badge&logo=linux&logoColor=ff6600)
-![VS Code](https://img.shields.io/badge/VS_Code-0a0a00?style=for-the-badge&logo=visualstudiocode&logoColor=ff00aa)
+<img src="https://skillicons.dev/icons?i=python,cpp,java,sklearn,pytorch,tensorflow,numpy,git,linux,vscode,github,fastapi,huggingface&perline=14" />
+
+<br/><br/>
+
+![Pandas](https://img.shields.io/badge/Pandas-0a0a00?style=for-the-badge&logo=pandas&logoColor=ffe600)&nbsp;
+![Streamlit](https://img.shields.io/badge/Streamlit-0a0a00?style=for-the-badge&logo=streamlit&logoColor=ff6600)&nbsp;
+![Gradio](https://img.shields.io/badge/Gradio-0a0a00?style=for-the-badge&logo=gradio&logoColor=ff00aa)&nbsp;
+![Jupyter](https://img.shields.io/badge/Jupyter-0a0a00?style=for-the-badge&logo=jupyter&logoColor=ffe600)&nbsp;
+![Matplotlib](https://img.shields.io/badge/Matplotlib-0a0a00?style=for-the-badge&logo=python&logoColor=ff6600)&nbsp;
+![Seaborn](https://img.shields.io/badge/Seaborn-0a0a00?style=for-the-badge&logo=python&logoColor=ff00aa)
 
 </div>
 
@@ -168,15 +200,23 @@ Disaster risk prediction prototype — Smart India Hackathon.
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Surya97141&show_icons=true&hide_border=true&bg_color=0a0a00&title_color=ffe600&icon_color=ff00aa&text_color=ccccaa&ring_color=ff6600" width="48%"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Surya97141&layout=compact&hide_border=true&bg_color=0a0a00&title_color=ff6600&text_color=ccccaa" width="40%"/>
+<table>
+<tr>
+<td align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Surya97141&show_icons=true&hide_border=true&bg_color=0a0a00&title_color=ffe600&icon_color=ff00aa&text_color=ccccaa&ring_color=ff6600&rank_icon=github" width="100%"/>
+</td>
+<td align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Surya97141&layout=compact&hide_border=true&bg_color=0a0a00&title_color=ff6600&text_color=ccccaa&langs_count=8" width="100%"/>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<img src="https://streak-stats.demolab.com/?user=Surya97141&hide_border=true&background=0a0a00&ring=ffe600&fire=ff6600&currStreakLabel=ff00aa&sideLabels=ccccaa&dates=555544&currStreakNum=ffe600&sideNums=ff6600" width="70%"/>
+</td>
+</tr>
+</table>
 
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Surya97141&hide_border=true&background=0a0a00&ring=ffe600&fire=ff6600&currStreakLabel=ff00aa&sideLabels=ccccaa&dates=555544&currStreakNum=ffe600&sideNums=ff6600" width="55%"/>
-
-<br/><br/>
+<br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Surya97141&bg_color=0a0a00&color=ffe600&line=ff00aa&point=ff6600&area=true&area_color=1a1400&hide_border=true" width="95%"/>
 
@@ -188,20 +228,47 @@ Disaster risk prediction prototype — Smart India Hackathon.
 
 <br/>
 
-```
-  ┌──────────────────────────────────────────────────────────────────┐
-  │  //// MISSION LOG //////////////////////////////////////////////////│
-  ├──────────────────────────────────────────────────────────────────┤
-  │                                                                  │
-  │  [✓]  Smart India Hackathon (SIH)   ──  Flood Prediction System  │
-  │  [✓]  Galgotias Creator Hackathon   ──  SentinelAI Detection     │
-  │  [✓]  Kaggle                        ──  Intro to Machine Learning│
-  │  [✓]  IIT Hyderabad Workshop        ──  Neural Intelligence      │
-  │  [⚡]  MAIRA                         ──  [ IN PROGRESS ]         │
-  │  [⚡]  DRL Combat Sim                ──  [ IN PROGRESS ]         │
-  │                                                                  │
-  └──────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Audiowide&size=18&duration=1&pause=99999&color=FF00AA&center=true&vCenter=true&width=420&lines=%E2%96%BA%E2%96%BA+CONTRIBUTION+GRID+%3C%3C)](https://git.io/typing-svg)
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/Surya97141/Surya97141/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="95%"/>
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Audiowide&size=18&duration=1&pause=99999&color=FF00AA&center=true&vCenter=true&width=380&lines=%E2%96%BA%E2%96%BA+MISSION+LOG+%3C%3C)](https://git.io/typing-svg)
+
+<br/>
+
+<table>
+<thead>
+<tr>
+<th>STATUS</th>
+<th>EVENT</th>
+<th>DELIVERABLE</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>✅</td><td>Smart India Hackathon (SIH)</td><td>Flood Prediction System</td></tr>
+<tr><td>✅</td><td>Galgotias Creator Hackathon</td><td>SentinelAI — Fake News Detection</td></tr>
+<tr><td>✅</td><td>Kaggle</td><td>Intro to Machine Learning</td></tr>
+<tr><td>✅</td><td>IIT Hyderabad Workshop</td><td>Neural Intelligence &amp; CNNs</td></tr>
+<tr><td>⚡</td><td>MAIRA</td><td>[ IN PROGRESS ]</td></tr>
+<tr><td>⚡</td><td>DRL Combat Simulation</td><td>[ IN PROGRESS ]</td></tr>
+</tbody>
+</table>
+
+</div>
 
 <br/>
 
