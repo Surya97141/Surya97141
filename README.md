@@ -313,8 +313,8 @@
 
   /* ── Draw matrix rain ── */
   function drawRain() {
-    /* Fade trail by painting a semi-transparent black wash */
-    rCtx.fillStyle = 'rgba(0,0,0,0.045)';
+    /* Fade trail — increased opacity wash = faster, dimmer fade */
+    rCtx.fillStyle = 'rgba(0,0,0,0.09)';
     rCtx.fillRect(0, 0, W, H);
 
     rCtx.font = '13px Share Tech Mono';
@@ -322,17 +322,17 @@
     for (let i = 0; i < cols.length; i++) {
       const y = drops[i] * COL_W;
 
-      /* Leading char — bright white-green */
-      rCtx.fillStyle = '#aaffcc';
+      /* Leading char — toned down from bright white-green */
+      rCtx.fillStyle = '#44bb66';
       rCtx.fillText(CHARS[Math.floor(Math.random() * CHARS.length)], cols[i] - 6, y);
 
-      /* Trail — fade to near-black green */
-      for (let t = 1; t < 24; t++) {
+      /* Trail — shorter, dimmer */
+      for (let t = 1; t < 14; t++) {
         const ty = y - t * COL_W;
         if (ty < 0) continue;
-        const alpha      = 1 - t / 24;
-        const brightness = Math.floor(alpha * 190);
-        rCtx.fillStyle   = `rgb(0,${brightness},${Math.floor(brightness * 0.22)})`;
+        const alpha      = 1 - t / 14;
+        const brightness = Math.floor(alpha * 100);
+        rCtx.fillStyle   = `rgb(0,${brightness},${Math.floor(brightness * 0.18)})`;
         rCtx.fillText(
           CHARS[Math.floor(Math.random() * CHARS.length)],
           cols[i] - 6, ty
