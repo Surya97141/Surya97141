@@ -1,6 +1,10 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:1a1a2e&height=120&section=header&text=&fontSize=0"/>
 
 <div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="220"/>
+</div>
+
+<div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Surya+Pratap+Singh;ML+Engineer+%26+AI+Systems+Builder;Open+to+Work+%E2%86%92+SWE+%7C+ML+%7C+AI" alt="Typing SVG" />
 </div>
 
@@ -24,6 +28,8 @@
 
 ## About
 
+<img align="right" width="180" src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif"/>
+
 CS undergrad at **AKTU** specialising in Data Science, building at the intersection of software engineering, machine learning, and autonomous AI systems.
 
 Currently focused on two things: **MAIRA** — an agent that audits ML research codebases for reproducibility gaps — and a **Deep RL** simulation environment for multi-agent aerial combat.
@@ -33,6 +39,8 @@ Currently focused on two things: **MAIRA** — an agent that audits ML research 
 - 💬 &nbsp;Ask me about — Python, scikit-learn, Deep RL, NLP pipelines
 - 📫 &nbsp;Reach me — [pratap742006@gmail.com](mailto:pratap742006@gmail.com)
 - ⚡ &nbsp;Open to — SWE · ML Engineering · AI Agent internships
+
+<br clear="right"/>
 
 ---
 
@@ -120,6 +128,39 @@ Currently focused on two things: **MAIRA** — an agent that audits ML research 
 <div align="center">
   <img width="95%" src="https://raw.githubusercontent.com/Surya97141/Surya97141/output/github-contribution-grid-snake-dark.svg" alt="contribution snake"/>
 </div>
+
+---
+
+<div align="center">
+
+### 👾 press start
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%"/>
+
+</div>
+
+<details>
+<summary><b>🖥️ click to open a terminal</b></summary>
+<br>
+
+```bash
+surya@portfolio:~$ whoami
+ml-engineer, ai-systems-builder, sophomore-at-aktu
+
+surya@portfolio:~$ cat current_focus.txt
+MAIRA               → auditing ML codebases for reproducibility gaps
+DRL-Aerial-Combat    → multi-agent PPO in a custom OpenAI Gym env
+
+surya@portfolio:~$ ./run_status_check.sh
+[OK] caffeine level     : nominal
+[OK] open to work       : true
+[OK] response time      : < 24h
+
+surya@portfolio:~$ echo "thanks for stopping by :)"
+thanks for stopping by :)
+```
+
+</details>
 
 ---
 
