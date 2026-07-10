@@ -1,32 +1,32 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:1a1a2e&height=120&section=header&text=&fontSize=0"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00E5,50:8B00FF,100:00F0FF&height=220&section=header&text=SURYA%20PRATAP%20SINGH&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=ML%20Engineer%20%26%20AI%20Systems%20Builder&descAlignY=58&descSize=18&animation=fadeIn"/>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="220"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=Surya+Pratap+Singh;ML+Engineer+%26+AI+Systems+Builder;Open+to+Work+%E2%86%92+SWE+%7C+ML+%7C+AI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=26&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=%3E+ML+Engineer+%2F%2F+AI+Systems+Builder;%3E+Open+to+Work+%E2%86%92+SWE+%7C+ML+%7C+AI" alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=14&duration=4000&pause=500&color=6B7280&center=true&vCenter=true&width=600&lines=B.Tech+CSE+%E2%80%94+Data+Science+%C2%B7+AKTU+%C2%B7+2024%E2%80%932028;Building+ML+systems+that+work+outside+notebooks." alt="Sub Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=400&size=14&duration=4000&pause=500&color=FF2E9F&center=true&vCenter=true&width=650&lines=B.Tech+CSE+%E2%80%94+Data+Science+%C2%B7+AKTU+%C2%B7+2024%E2%80%932028;Building+ML+systems+that+work+outside+notebooks." alt="Sub Typing SVG" />
 </div>
 
 <br/>
 
 <div align="center">
 
-  [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://Surya97141.github.io)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/surya-singh-b575591b5)
-  [![Gmail](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:pratap742006@gmail.com)
-  [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Surya97141)
-  ![Profile Views](https://komarev.com/ghpvc/?username=Surya97141&style=flat-square&color=6B7280&label=views)
+  [![Portfolio](https://img.shields.io/badge/PORTFOLIO-0a0a0a?style=for-the-badge&logo=vercel&logoColor=00F0FF&labelColor=0a0a0a)](https://Surya97141.github.io)
+  [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=FF2E9F&labelColor=0a0a0a)](https://linkedin.com/in/surya-singh-b575591b5)
+  [![Gmail](https://img.shields.io/badge/EMAIL-0a0a0a?style=for-the-badge&logo=gmail&logoColor=8B00FF&labelColor=0a0a0a)](mailto:pratap742006@gmail.com)
+  [![GitHub](https://img.shields.io/badge/GITHUB-0a0a0a?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=0a0a0a)](https://github.com/Surya97141)
+  ![Profile Views](https://komarev.com/ghpvc/?username=Surya97141&style=for-the-badge&color=FF2E9F&label=VIEWS)
 
 </div>
 
----
+<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00E5,50:8B00FF,100:00F0FF&height=3"/>
 
-## About
+## <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="28"/> &nbsp;About
 
 <img align="right" width="180" src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif"/>
 
@@ -42,9 +42,9 @@ Currently focused on two things: **MAIRA** — an agent that audits ML research 
 
 <br clear="right"/>
 
----
+<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:8B00FF,100:FF00E5&height=3"/>
 
-## Projects
+## <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="28"/> &nbsp;Projects
 
 | Project | Description | Stack | Status |
 |---------|-------------|-------|--------|
@@ -54,62 +54,62 @@ Currently focused on two things: **MAIRA** — an agent that audits ML research 
 | **Mental Health Predictor** | End-to-end supervised ML pipeline with SMOTE, benchmarked across LR / RF / GBM | Python · scikit-learn · Pandas · NumPy | `Shipped` |
 | **Flood Prediction** | Disaster risk prediction with ETL pipeline + geospatial Streamlit dashboard — Smart India Hackathon | Python · scikit-learn · Streamlit · ETL | `Shipped` |
 
----
+<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00E5,50:8B00FF,100:00F0FF&height=3"/>
 
-## Tech Stack
+## <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="28"/> &nbsp;Tech Stack
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0a0a0a?style=flat-square&logo=python&logoColor=00F0FF)
+![C++](https://img.shields.io/badge/C++-0a0a0a?style=flat-square&logo=cplusplus&logoColor=00F0FF)
+![Java](https://img.shields.io/badge/Java-0a0a0a?style=flat-square&logo=openjdk&logoColor=00F0FF)
 
 **ML / AI**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-0a0a0a?style=flat-square&logo=pytorch&logoColor=FF2E9F)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-0a0a0a?style=flat-square&logo=tensorflow&logoColor=FF2E9F)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0a0a0a?style=flat-square&logo=scikitlearn&logoColor=FF2E9F)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-0a0a0a?style=flat-square&logo=huggingface&logoColor=FF2E9F)
+![NumPy](https://img.shields.io/badge/NumPy-0a0a0a?style=flat-square&logo=numpy&logoColor=FF2E9F)
+![Pandas](https://img.shields.io/badge/Pandas-0a0a0a?style=flat-square&logo=pandas&logoColor=FF2E9F)
 
 **Tools & Deployment**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-0a0a0a?style=flat-square&logo=fastapi&logoColor=8B00FF)
+![Streamlit](https://img.shields.io/badge/Streamlit-0a0a0a?style=flat-square&logo=streamlit&logoColor=8B00FF)
+![Git](https://img.shields.io/badge/Git-0a0a0a?style=flat-square&logo=git&logoColor=8B00FF)
+![Linux](https://img.shields.io/badge/Linux-0a0a0a?style=flat-square&logo=linux&logoColor=8B00FF)
+![Jupyter](https://img.shields.io/badge/Jupyter-0a0a0a?style=flat-square&logo=jupyter&logoColor=8B00FF)
+![VS Code](https://img.shields.io/badge/VS_Code-0a0a0a?style=flat-square&logo=visualstudiocode&logoColor=8B00FF)
 
----
+<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:8B00FF,100:FF00E5&height=3"/>
 
-## GitHub Stats
+## <img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="28"/> &nbsp;GitHub Stats
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Surya97141&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Surya97141&layout=compact&theme=github_dark&hide_border=true&langs_count=8" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Surya97141&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0a0a0a&title_color=00F0FF&icon_color=FF2E9F&text_color=c9d1d9" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Surya97141&layout=compact&theme=radical&hide_border=true&langs_count=8&bg_color=0a0a0a&title_color=00F0FF&text_color=c9d1d9" />
 </div>
 
 <div align="center">
-  <img width="70%" src="https://streak-stats.demolab.com/?user=Surya97141&theme=github-dark-blue&hide_border=true" />
+  <img width="70%" src="https://streak-stats.demolab.com/?user=Surya97141&theme=radical&hide_border=true&background=0a0a0a&ring=FF2E9F&fire=00F0FF&currStreakLabel=00F0FF" />
 </div>
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Surya97141&theme=github-compact&hide_border=true&area=true" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Surya97141&theme=react-dark&hide_border=true&area=true&bg_color=0a0a0a&color=00F0FF&line=FF2E9F&point=FFFFFF" />
 </div>
 
----
+<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00E5,50:8B00FF,100:00F0FF&height=3"/>
 
-## Achievements
+## <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="28"/> &nbsp;Achievements
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Surya97141&theme=onestar&no-frame=true&row=1&column=6&margin-w=8" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Surya97141&theme=radical&no-frame=true&row=1&column=6&margin-w=8" />
 </div>
 
----
+<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:8B00FF,100:FF00E5&height=3"/>
 
-## Timeline
+## <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="28"/> &nbsp;Timeline
 
 ```text
 2025  ⚡  MAIRA — ML Research Automation Agent                [IN PROGRESS]
@@ -121,7 +121,7 @@ Currently focused on two things: **MAIRA** — an agent that audits ML research 
 2024  ✓   Enrolled — B.Tech CSE Data Science @ AKTU           [STARTED]
 ```
 
----
+<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00E5,50:8B00FF,100:00F0FF&height=3"/>
 
 ## Contribution Snake
 
@@ -133,7 +133,7 @@ Currently focused on two things: **MAIRA** — an agent that audits ML research 
 
 <div align="center">
 
-### 👾 press start
+### <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="26"/> &nbsp;press start&nbsp; <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="26"/>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%"/>
 
@@ -144,25 +144,25 @@ Currently focused on two things: **MAIRA** — an agent that audits ML research 
 <br>
 
 ```bash
-surya@portfolio:~$ whoami
+surya@neon-city:~$ whoami
 ml-engineer, ai-systems-builder, sophomore-at-aktu
 
-surya@portfolio:~$ cat current_focus.txt
+surya@neon-city:~$ cat current_focus.txt
 MAIRA               → auditing ML codebases for reproducibility gaps
 DRL-Aerial-Combat    → multi-agent PPO in a custom OpenAI Gym env
 
-surya@portfolio:~$ ./run_status_check.sh
+surya@neon-city:~$ ./run_status_check.sh
 [OK] caffeine level     : nominal
 [OK] open to work       : true
 [OK] response time      : < 24h
 
-surya@portfolio:~$ echo "thanks for stopping by :)"
+surya@neon-city:~$ echo "thanks for stopping by :)"
 thanks for stopping by :)
 ```
 
 </details>
 
----
+<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:8B00FF,100:FF00E5&height=3"/>
 
 <div align="center">
   <sub>
@@ -176,4 +176,4 @@ thanks for stopping by :)
   </sub>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0a0a0a&height=80&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:8B00FF,100:FF00E5&height=100&section=footer"/>
