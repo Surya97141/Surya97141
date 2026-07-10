@@ -1,15 +1,15 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00E5,50:8B00FF,100:00F0FF&height=220&section=header&text=SURYA%20PRATAP%20SINGH&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=ML%20Engineer%20%26%20AI%20Systems%20Builder&descAlignY=58&descSize=18&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00E5,50:8B00FF,100:00F0FF&height=220&section=header&text=SURYA%20PRATAP%20SINGH&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=ML%20Solutions%20Architect%20%26%20AI%20Systems%20Builder&descAlignY=58&descSize=18&animation=fadeIn"/>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="220"/>
+  <img src="./assets/minesweeper-banner.svg" width="700"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=26&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=%3E+ML+Engineer+%2F%2F+AI+Systems+Builder;%3E+Open+to+Work+%E2%86%92+SWE+%7C+ML+%7C+AI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=700&size=26&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=%3E+ML+Solutions+Architect;%3E+Open+to+Work+%E2%86%92+SWE+%7C+ML+%7C+AI" alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&weight=400&size=14&duration=4000&pause=500&color=FF2E9F&center=true&vCenter=true&width=650&lines=B.Tech+CSE+%E2%80%94+Data+Science+%C2%B7+AKTU+%C2%B7+2024%E2%80%932028;Building+ML+systems+that+work+outside+notebooks." alt="Sub Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=400&size=14&duration=4000&pause=500&color=FF2E9F&center=true&vCenter=true&width=650&lines=B.Tech+CSE+%E2%80%94+Data+Science+%C2%B7+AKTU+%C2%B7+2024%E2%80%932028;Building+ML+systems+that+work+outside+notebooks." alt="Sub Typing SVG" />
 </div>
 
 <br/>
@@ -132,8 +132,6 @@ Currently focused on two things: **MAIRA** — an agent that audits ML research 
 ---
 
 <div align="center">
-
-### <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="26"/> &nbsp;press start&nbsp; <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="26"/>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%"/>
 
