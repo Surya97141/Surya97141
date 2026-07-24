@@ -1,0 +1,111 @@
+<svg width="900" height="330" viewBox="0 0 900 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech stack as a circuit board">
+  <defs>
+    <filter id="cglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="1.8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="chipFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#12121f"/>
+      <stop offset="1" stop-color="#0a0a14"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="330" rx="10" fill="#07070f"/>
+  <!-- faint pcb grid -->
+  <g stroke="#141428" stroke-width="0.5">
+    <path d="M 0 55 H 900 M 0 110 H 900 M 0 165 H 900 M 0 220 H 900 M 0 275 H 900"/>
+    <path d="M 100 0 V 330 M 200 0 V 330 M 300 0 V 330 M 400 0 V 330 M 500 0 V 330 M 600 0 V 330 M 700 0 V 330 M 800 0 V 330"/>
+  </g>
+
+  <!-- ===== traces (drawn under chips) ===== -->
+  <g fill="none" stroke-width="1.4" stroke-linejoin="round">
+    <!-- CPU to each domain chip: right-angle pcb routing -->
+    <path id="t1" d="M 385 165 H 300 V 78 H 218"  stroke="#00F0FF" opacity="0.5"/>
+    <path id="t2" d="M 385 180 H 260 V 252 H 218" stroke="#00F0FF" opacity="0.5"/>
+    <path id="t3" d="M 515 165 H 600 V 78 H 682"  stroke="#FF2E9F" opacity="0.5"/>
+    <path id="t4" d="M 515 180 H 640 V 252 H 682" stroke="#8B00FF" opacity="0.5"/>
+    <path id="t5" d="M 450 135 V 60"              stroke="#FF2E9F" opacity="0.5"/>
+    <path id="t6" d="M 450 210 V 285"             stroke="#8B00FF" opacity="0.5"/>
+    <!-- solder pads at junctions -->
+    <g fill="#1e1e33" stroke="none">
+      <circle cx="300" cy="78" r="3"/><circle cx="260" cy="252" r="3"/>
+      <circle cx="600" cy="78" r="3"/><circle cx="640" cy="252" r="3"/>
+    </g>
+  </g>
+
+  <!-- data packets riding the traces -->
+  <g filter="url(#cglow)">
+    <circle r="2.4" fill="#00F0FF"><animateMotion dur="2.8s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1"><mpath href="#t1"/></animateMotion></circle>
+    <circle r="2.4" fill="#00F0FF"><animateMotion dur="3.4s" begin="0.9s" repeatCount="indefinite"><mpath href="#t2"/></animateMotion></circle>
+    <circle r="2.4" fill="#FF2E9F"><animateMotion dur="2.5s" begin="0.4s" repeatCount="indefinite"><mpath href="#t3"/></animateMotion></circle>
+    <circle r="2.4" fill="#8B00FF"><animateMotion dur="3.1s" begin="1.4s" repeatCount="indefinite"><mpath href="#t4"/></animateMotion></circle>
+    <circle r="2.4" fill="#FF2E9F"><animateMotion dur="1.9s" begin="0.2s" repeatCount="indefinite"><mpath href="#t5"/></animateMotion></circle>
+    <circle r="2.4" fill="#8B00FF"><animateMotion dur="2.2s" begin="1.1s" repeatCount="indefinite"><mpath href="#t6"/></animateMotion></circle>
+  </g>
+
+  <!-- ===== central CPU: LANGUAGES ===== -->
+  <g>
+    <!-- pins -->
+    <g stroke="#2a2a44" stroke-width="2">
+      <path d="M 395 128 V 118 M 415 128 V 118 M 435 128 V 118 M 455 128 V 118 M 475 128 V 118 M 495 128 V 118"/>
+      <path d="M 395 217 V 227 M 415 217 V 227 M 435 217 V 227 M 455 217 V 227 M 475 217 V 227 M 495 217 V 227"/>
+      <path d="M 378 145 H 368 M 378 165 H 368 M 378 185 H 368 M 378 200 H 368"/>
+      <path d="M 522 145 H 532 M 522 165 H 532 M 522 185 H 532 M 522 200 H 532"/>
+    </g>
+    <rect x="378" y="128" width="144" height="89" rx="7" fill="url(#chipFace)" stroke="#00F0FF" stroke-width="1.4" filter="url(#cglow)"/>
+    <text x="450" y="152" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#00F0FF" letter-spacing="3">CORE.LANG</text>
+    <text x="450" y="176" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" fill="#f2f4ff" font-weight="bold">PYTHON · C++</text>
+    <text x="450" y="198" text-anchor="middle" font-family="'Courier New',monospace" font-size="12" fill="#c9d1d9">JAVA</text>
+    <!-- heartbeat led -->
+    <circle cx="510" cy="140" r="3" fill="#FF2E9F"><animate attributeName="opacity" values="1;0.15;1" dur="1.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- ===== ML/AI chip ===== -->
+  <g>
+    <rect x="80" y="48" width="138" height="60" rx="6" fill="url(#chipFace)" stroke="#FF2E9F" stroke-width="1.3" filter="url(#cglow)"/>
+    <text x="149" y="68" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#FF2E9F" letter-spacing="2">ML.FRAMEWORKS</text>
+    <text x="149" y="85" text-anchor="middle" font-family="'Courier New',monospace" font-size="10.5" fill="#f2f4ff">PyTorch · TensorFlow</text>
+    <text x="149" y="100" text-anchor="middle" font-family="'Courier New',monospace" font-size="10.5" fill="#c9d1d9">scikit-learn · HF</text>
+  </g>
+
+  <!-- ===== DATA chip ===== -->
+  <g>
+    <rect x="80" y="222" width="138" height="60" rx="6" fill="url(#chipFace)" stroke="#00F0FF" stroke-width="1.3" filter="url(#cglow)"/>
+    <text x="149" y="242" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#00F0FF" letter-spacing="2">DATA.OPS</text>
+    <text x="149" y="259" text-anchor="middle" font-family="'Courier New',monospace" font-size="10.5" fill="#f2f4ff">NumPy · Pandas</text>
+    <text x="149" y="274" text-anchor="middle" font-family="'Courier New',monospace" font-size="10.5" fill="#c9d1d9">Jupyter · ETL</text>
+  </g>
+
+  <!-- ===== SERVE chip ===== -->
+  <g>
+    <rect x="682" y="48" width="138" height="60" rx="6" fill="url(#chipFace)" stroke="#FF2E9F" stroke-width="1.3" filter="url(#cglow)"/>
+    <text x="751" y="68" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#FF2E9F" letter-spacing="2">SERVE.LAYER</text>
+    <text x="751" y="85" text-anchor="middle" font-family="'Courier New',monospace" font-size="10.5" fill="#f2f4ff">FastAPI · Streamlit</text>
+    <text x="751" y="100" text-anchor="middle" font-family="'Courier New',monospace" font-size="10.5" fill="#c9d1d9">REST APIs</text>
+  </g>
+
+  <!-- ===== ENV chip ===== -->
+  <g>
+    <rect x="682" y="222" width="138" height="60" rx="6" fill="url(#chipFace)" stroke="#8B00FF" stroke-width="1.3" filter="url(#cglow)"/>
+    <text x="751" y="242" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#8B00FF" letter-spacing="2">ENV.TOOLING</text>
+    <text x="751" y="259" text-anchor="middle" font-family="'Courier New',monospace" font-size="10.5" fill="#f2f4ff">Git · Linux</text>
+    <text x="751" y="274" text-anchor="middle" font-family="'Courier New',monospace" font-size="10.5" fill="#c9d1d9">VS Code</text>
+  </g>
+
+  <!-- ===== top RL module ===== -->
+  <g>
+    <rect x="384" y="20" width="132" height="40" rx="6" fill="url(#chipFace)" stroke="#FF2E9F" stroke-width="1.3"/>
+    <text x="450" y="37" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#FF2E9F" letter-spacing="2">DEEP.RL</text>
+    <text x="450" y="52" text-anchor="middle" font-family="'Courier New',monospace" font-size="10.5" fill="#f2f4ff">PPO · Gym</text>
+  </g>
+
+  <!-- ===== bottom AGENTS module ===== -->
+  <g>
+    <rect x="384" y="285" width="132" height="40" rx="6" fill="url(#chipFace)" stroke="#8B00FF" stroke-width="1.3"/>
+    <text x="450" y="302" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#8B00FF" letter-spacing="2">AGENTS</text>
+    <text x="450" y="317" text-anchor="middle" font-family="'Courier New',monospace" font-size="10.5" fill="#f2f4ff">NLP · LLM tooling</text>
+  </g>
+
+  <!-- silkscreen label -->
+  <text x="874" y="320" text-anchor="end" font-family="'Courier New',monospace" font-size="8" fill="#2e2e4a" letter-spacing="1">REV 2.6 · SPS-BOARD</text>
+</svg>
