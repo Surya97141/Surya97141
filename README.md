@@ -1,177 +1,246 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FF00E5,50:8B00FF,100:00F0FF&height=220&section=header&text=SURYA%20PRATAP%20SINGH&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=ML%20Solutions%20Architect%20%26%20AI%20Systems%20Builder&descAlignY=58&descSize=18&animation=fadeIn"/>
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Surya Pratap Singh — ML Systems HUD banner">
+  <defs>
+    <!-- ====== gradients ====== -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#05050c"/>
+      <stop offset="0.7" stop-color="#0a0a14"/>
+      <stop offset="1" stop-color="#0d0618"/>
+    </linearGradient>
+    <linearGradient id="edgeStrip" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF00E5"/>
+      <stop offset="0.5" stop-color="#8B00FF"/>
+      <stop offset="1" stop-color="#00F0FF"/>
+    </linearGradient>
+    <radialGradient id="radarGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00F0FF" stop-opacity="0.16"/>
+      <stop offset="0.8" stop-color="#00F0FF" stop-opacity="0.03"/>
+      <stop offset="1" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweepGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00F0FF" stop-opacity="0"/>
+      <stop offset="0.85" stop-color="#00F0FF" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#00F0FF" stop-opacity="0.85"/>
+    </linearGradient>
+    <radialGradient id="nodeCore" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#FF2E9F"/>
+      <stop offset="1" stop-color="#FF2E9F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- perspective floor grid, built once, reused -->
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" opacity="0.14"/>
+    </pattern>
+    <clipPath id="frame"><rect width="900" height="300" rx="10"/></clipPath>
+  </defs>
 
-<div align="center">
-  <img src="./assets/minesweeper-banner.svg" width="700"/>
-</div>
+  <g clip-path="url(#frame)">
+    <!-- ====== backdrop ====== -->
+    <rect width="900" height="300" fill="url(#bgGrad)"/>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=700&size=26&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=650&lines=%3E+ML+Solutions+Architect;%3E+Open+to+Work+%E2%86%92+SWE+%7C+ML+%7C+AI" alt="Typing SVG" />
-</div>
+    <!-- perspective wireframe floor -->
+    <g stroke="#8B00FF" stroke-width="0.6" opacity="0.35">
+      <line x1="450" y1="180" x2="-140" y2="300"/>
+      <line x1="450" y1="180" x2="80"  y2="300"/>
+      <line x1="450" y1="180" x2="270" y2="300"/>
+      <line x1="450" y1="180" x2="450" y2="300"/>
+      <line x1="450" y1="180" x2="630" y2="300"/>
+      <line x1="450" y1="180" x2="820" y2="300"/>
+      <line x1="450" y1="180" x2="1040" y2="300"/>
+      <path d="M 240 218 H 660" opacity="0.8"/>
+      <path d="M 150 244 H 750" opacity="0.6"/>
+      <path d="M 30 274 H 870" opacity="0.4"/>
+      <!-- horizon shimmer -->
+      <line x1="0" y1="180" x2="900" y2="180" stroke="#FF00E5" stroke-width="1" opacity="0.5">
+        <animate attributeName="opacity" values="0.5;0.15;0.5" dur="4s" repeatCount="indefinite"/>
+      </line>
+    </g>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=400&size=14&duration=4000&pause=500&color=FF2E9F&center=true&vCenter=true&width=650&lines=B.Tech+CSE+%E2%80%94+Data+Science+%C2%B7+AKTU+%C2%B7+2024%E2%80%932028;Building+ML+systems+that+work+outside+notebooks." alt="Sub Typing SVG" />
-</div>
+    <!-- ====== LEFT: neural lattice (MAIRA) ====== -->
+    <g transform="translate(70,52)">
+      <!-- connection wires: dash-flow gives 'signal' movement, staggered -->
+      <g stroke-width="1" fill="none" stroke-linecap="round">
+        <path d="M 0 20 C 40 20 40 0 80 6"    stroke="#00F0FF" opacity="0.55" stroke-dasharray="6 46">
+          <animate attributeName="stroke-dashoffset" from="52" to="0" dur="1.7s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 0 60 C 40 60 40 10 80 6"   stroke="#FF2E9F" opacity="0.55" stroke-dasharray="6 52">
+          <animate attributeName="stroke-dashoffset" from="58" to="0" dur="2.3s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 0 60 C 44 60 44 52 80 50"  stroke="#00F0FF" opacity="0.55" stroke-dasharray="6 44">
+          <animate attributeName="stroke-dashoffset" from="50" to="0" dur="1.4s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 0 100 C 40 100 40 56 80 50" stroke="#8B00FF" opacity="0.7" stroke-dasharray="6 50">
+          <animate attributeName="stroke-dashoffset" from="56" to="0" dur="2.0s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 0 100 C 46 100 46 92 80 94" stroke="#FF2E9F" opacity="0.55" stroke-dasharray="6 46">
+          <animate attributeName="stroke-dashoffset" from="52" to="0" dur="2.6s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 0 20 C 46 20 46 88 80 94"  stroke="#8B00FF" opacity="0.55" stroke-dasharray="6 58">
+          <animate attributeName="stroke-dashoffset" from="64" to="0" dur="1.9s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 80 6 C 116 6 116 40 150 46"  stroke="#00F0FF" opacity="0.7" stroke-dasharray="6 48">
+          <animate attributeName="stroke-dashoffset" from="54" to="0" dur="1.5s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 80 50 C 116 50 116 46 150 46" stroke="#FF2E9F" opacity="0.7" stroke-dasharray="6 40">
+          <animate attributeName="stroke-dashoffset" from="46" to="0" dur="1.2s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 80 94 C 116 94 116 52 150 46" stroke="#8B00FF" opacity="0.7" stroke-dasharray="6 50">
+          <animate attributeName="stroke-dashoffset" from="56" to="0" dur="2.1s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <!-- input layer -->
+      <g fill="#0a0a14" stroke="#00F0FF" stroke-width="1.2">
+        <circle cx="0" cy="20"  r="4"><animate attributeName="stroke-opacity" values="1;0.3;1" dur="1.7s" repeatCount="indefinite"/></circle>
+        <circle cx="0" cy="60"  r="4"><animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2.3s" repeatCount="indefinite"/></circle>
+        <circle cx="0" cy="100" r="4"><animate attributeName="stroke-opacity" values="1;0.4;1" dur="2.0s" repeatCount="indefinite"/></circle>
+      </g>
+      <!-- hidden layer -->
+      <g fill="#0a0a14" stroke="#FF2E9F" stroke-width="1.2">
+        <circle cx="80" cy="6"  r="4.5"><animate attributeName="r" values="4.5;5.5;4.5" dur="1.5s" repeatCount="indefinite"/></circle>
+        <circle cx="80" cy="50" r="4.5"><animate attributeName="r" values="4.5;5.5;4.5" dur="1.9s" begin="0.4s" repeatCount="indefinite"/></circle>
+        <circle cx="80" cy="94" r="4.5"><animate attributeName="r" values="4.5;5.5;4.5" dur="1.7s" begin="0.8s" repeatCount="indefinite"/></circle>
+      </g>
+      <!-- output node: bright pulsing core -->
+      <circle cx="150" cy="46" r="13" fill="url(#nodeCore)" opacity="0.9">
+        <animate attributeName="r" values="11;16;11" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="150" cy="46" r="5" fill="#0a0a14" stroke="#FF2E9F" stroke-width="1.6" filter="url(#glow)"/>
+      <text x="150" y="76" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#FF2E9F" opacity="0.85" letter-spacing="2">MAIRA</text>
+      <!-- packets riding the final wires -->
+      <circle r="2" fill="#ffffff" filter="url(#glow)">
+        <animateMotion dur="1.5s" repeatCount="indefinite" path="M 80 6 C 116 6 116 40 150 46"/>
+      </circle>
+      <circle r="2" fill="#ffffff" filter="url(#glow)">
+        <animateMotion dur="2.1s" repeatCount="indefinite" path="M 80 94 C 116 94 116 52 150 46"/>
+      </circle>
+    </g>
 
-<br/>
+    <!-- ====== RIGHT: combat radar (DRL Aerial) ====== -->
+    <g transform="translate(755,105)">
+      <circle r="86" fill="url(#radarGlow)"/>
+      <g stroke="#00F0FF" fill="none" opacity="0.5" stroke-width="0.8">
+        <circle r="78"/><circle r="56"/><circle r="34"/><circle r="13"/>
+        <line x1="-78" y1="0" x2="78" y2="0"/>
+        <line x1="0" y1="-78" x2="0" y2="78"/>
+        <line x1="-55" y1="-55" x2="55" y2="55" opacity="0.4"/>
+        <line x1="-55" y1="55" x2="55" y2="-55" opacity="0.4"/>
+      </g>
+      <!-- bearing ticks -->
+      <g stroke="#00F0FF" stroke-width="1.4" opacity="0.7">
+        <line x1="0" y1="-78" x2="0" y2="-72"/><line x1="78" y1="0" x2="72" y2="0"/>
+        <line x1="0" y1="78" x2="0" y2="72"/><line x1="-78" y1="0" x2="-72" y2="0"/>
+      </g>
+      <!-- rotating sweep wedge -->
+      <g>
+        <path d="M 0 0 L 78 0 A 78 78 0 0 0 67.5 -39 Z" fill="url(#sweepGrad)" opacity="0.9"/>
+        <line x1="0" y1="0" x2="78" y2="0" stroke="#00F0FF" stroke-width="1.6" filter="url(#glow)"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+      </g>
+      <!-- contacts: each blips as the 4s sweep passes its bearing -->
+      <g>
+        <path d="M 30 -38 l 5 8 l -5 -2.4 l -5 2.4 Z" fill="#FF2E9F" filter="url(#glow)" opacity="0">
+          <animate attributeName="opacity" values="0;1;1;0.12;0" keyTimes="0;0.04;0.3;0.8;1" dur="4s" begin="3.44s" repeatCount="indefinite"/>
+        </path>
+        <path d="M -45 -20 l 5 8 l -5 -2.4 l -5 2.4 Z" fill="#FF2E9F" filter="url(#glow)" opacity="0" transform="rotate(40 -45 -20)">
+          <animate attributeName="opacity" values="0;1;1;0.12;0" keyTimes="0;0.04;0.3;0.8;1" dur="4s" begin="2.27s" repeatCount="indefinite"/>
+        </path>
+        <path d="M -22 48 l 5 8 l -5 -2.4 l -5 2.4 Z" fill="#00F0FF" filter="url(#glow)" opacity="0" transform="rotate(200 -22 48)">
+          <animate attributeName="opacity" values="0;1;1;0.12;0" keyTimes="0;0.04;0.3;0.8;1" dur="4s" begin="1.28s" repeatCount="indefinite"/>
+        </path>
+        <path d="M 52 30 l 5 8 l -5 -2.4 l -5 2.4 Z" fill="#8B00FF" filter="url(#glow)" opacity="0" transform="rotate(150 52 30)">
+          <animate attributeName="opacity" values="0;1;1;0.12;0" keyTimes="0;0.04;0.3;0.8;1" dur="4s" begin="0.33s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <!-- friendly craft orbiting -->
+      <g>
+        <path d="M 0 -6 l 4.6 8 l -4.6 -2 l -4.6 2 Z" fill="#00F0FF" filter="url(#glow)">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="9s" repeatCount="indefinite"/>
+        </path>
+        <animateMotion dur="9s" repeatCount="indefinite" path="M 0 -45 A 45 45 0 1 0 0.1 -45"/>
+      </g>
+      <text y="98" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#00F0FF" opacity="0.85" letter-spacing="2">DRL·AIRSPACE</text>
+    </g>
 
-<div align="center">
+    <!-- ====== CENTER: name with RGB-split glitch ====== -->
+    <g font-family="'Arial Black','Segoe UI',system-ui,sans-serif" font-weight="900" font-size="43" text-anchor="middle" letter-spacing="2">
+      <!-- chromatic ghosts: offset copies flicker in briefly on a 6s cycle -->
+      <text x="448" y="118" fill="#FF00E5" opacity="0">
+        SURYA PRATAP SINGH
+        <animate attributeName="opacity" values="0;0;0.8;0;0.55;0;0" keyTimes="0;0.62;0.635;0.65;0.665;0.68;1" dur="6s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;-3 1;2 -1;0 0" keyTimes="0;0.63;0.67;1" dur="6s" repeatCount="indefinite"/>
+      </text>
+      <text x="452" y="118" fill="#00F0FF" opacity="0">
+        SURYA PRATAP SINGH
+        <animate attributeName="opacity" values="0;0;0.8;0;0.55;0;0" keyTimes="0;0.62;0.635;0.65;0.665;0.68;1" dur="6s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;3 -1;-2 1;0 0" keyTimes="0;0.63;0.67;1" dur="6s" repeatCount="indefinite"/>
+      </text>
+      <!-- main plate -->
+      <text x="450" y="118" fill="#f2f4ff" filter="url(#bigGlow)">SURYA PRATAP SINGH</text>
+      <!-- slice-band that shears across during the glitch window -->
+      <g clip-path="url(#sliceClip)">
+        <text x="450" y="118" fill="#f2f4ff">
+          SURYA PRATAP SINGH
+          <animateTransform attributeName="transform" type="translate" values="0 0;0 0;7 0;-6 0;0 0;0 0" keyTimes="0;0.62;0.64;0.66;0.68;1" dur="6s" repeatCount="indefinite"/>
+        </text>
+      </g>
+    </g>
+    <clipPath id="sliceClip"><rect x="180" y="96" width="540" height="9"/></clipPath>
 
-  [![Portfolio](https://img.shields.io/badge/PORTFOLIO-0a0a0a?style=for-the-badge&logo=vercel&logoColor=00F0FF&labelColor=0a0a0a)](https://Surya97141.github.io)
-  [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=FF2E9F&labelColor=0a0a0a)](https://linkedin.com/in/surya-singh-b575591b5)
-  [![Gmail](https://img.shields.io/badge/EMAIL-0a0a0a?style=for-the-badge&logo=gmail&logoColor=8B00FF&labelColor=0a0a0a)](mailto:pratap742006@gmail.com)
-  [![GitHub](https://img.shields.io/badge/GITHUB-0a0a0a?style=for-the-badge&logo=github&logoColor=00F0FF&labelColor=0a0a0a)](https://github.com/Surya97141)
-  ![Profile Views](https://komarev.com/ghpvc/?username=Surya97141&style=for-the-badge&color=FF2E9F&label=VIEWS)
+    <!-- subtitle: typed on, cursor blinks -->
+    <g font-family="'Courier New',monospace" font-size="13" letter-spacing="3">
+      <clipPath id="typeClip">
+        <rect x="290" y="130" width="0" height="20">
+          <animate attributeName="width" values="0;0;330;330" keyTimes="0;0.08;0.45;1" dur="6s" repeatCount="indefinite"/>
+        </rect>
+      </clipPath>
+      <text x="450" y="145" text-anchor="middle" fill="#00F0FF" clip-path="url(#typeClip)">&gt; ML SYSTEMS · DEEP RL · AGENTS</text>
+      <rect x="622" y="133" width="7" height="15" fill="#FF2E9F">
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
 
-</div>
+    <!-- status readout, bottom-left -->
+    <g font-family="'Courier New',monospace" font-size="9" fill="#8B00FF" opacity="0.9">
+      <text x="26" y="262">SYS: NOMINAL</text>
+      <text x="26" y="276" fill="#00F0FF">OPEN_TO_WORK = <tspan fill="#FF2E9F">TRUE</tspan></text>
+      <text x="26" y="290" opacity="0.7">uptime: <tspan>
+        <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>∞</tspan></text>
+    </g>
 
-<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00E5,50:8B00FF,100:00F0FF&height=3"/>
+    <!-- telemetry bars, bottom-right of center -->
+    <g transform="translate(560,252)">
+      <g fill="#00F0FF">
+        <rect x="0"  width="5" y="-12" height="12"><animate attributeName="height" values="12;26;7;18;12" dur="2.2s" repeatCount="indefinite"/><animate attributeName="y" values="-12;-26;-7;-18;-12" dur="2.2s" repeatCount="indefinite"/></rect>
+        <rect x="9"  width="5" y="-20" height="20" fill="#FF2E9F"><animate attributeName="height" values="20;9;28;14;20" dur="1.8s" repeatCount="indefinite"/><animate attributeName="y" values="-20;-9;-28;-14;-20" dur="1.8s" repeatCount="indefinite"/></rect>
+        <rect x="18" width="5" y="-8" height="8" fill="#8B00FF"><animate attributeName="height" values="8;22;13;30;8" dur="2.6s" repeatCount="indefinite"/><animate attributeName="y" values="-8;-22;-13;-30;-8" dur="2.6s" repeatCount="indefinite"/></rect>
+        <rect x="27" width="5" y="-16" height="16"><animate attributeName="height" values="16;30;10;24;16" dur="2.0s" repeatCount="indefinite"/><animate attributeName="y" values="-16;-30;-10;-24;-16" dur="2.0s" repeatCount="indefinite"/></rect>
+      </g>
+      <text y="14" font-family="'Courier New',monospace" font-size="8" fill="#00F0FF" opacity="0.7" letter-spacing="1">TELEMETRY</text>
+    </g>
 
-## <img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="28"/> &nbsp;About
+    <!-- corner brackets: HUD frame -->
+    <g stroke="#00F0FF" stroke-width="2" fill="none" opacity="0.9" filter="url(#glow)">
+      <path d="M 14 34 V 14 H 34"/>
+      <path d="M 866 14 H 886 V 34"/>
+      <path d="M 886 266 V 286 H 866"/>
+      <path d="M 34 286 H 14 V 266"/>
+    </g>
 
-<img align="right" width="180" src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif"/>
+    <!-- edge gradient strips -->
+    <rect x="0" y="0" width="900" height="3" fill="url(#edgeStrip)"/>
+    <rect x="0" y="297" width="900" height="3" fill="url(#edgeStrip)"/>
 
-CS undergrad at **AKTU** specialising in Data Science, building at the intersection of software engineering, machine learning, and autonomous AI systems.
-
-Currently focused on two things: **MAIRA** — an agent that audits ML research codebases for reproducibility gaps — and a **Deep RL** simulation environment for multi-agent aerial combat.
-
-- 🔭 &nbsp;Working on — `MAIRA` and `DRL Aerial Combat Sim`
-- 🌱 &nbsp;Learning — LLM fine-tuning, agentic frameworks, production ML deployment
-- 💬 &nbsp;Ask me about — Python, scikit-learn, Deep RL, NLP pipelines
-- 📫 &nbsp;Reach me — [pratap742006@gmail.com](mailto:pratap742006@gmail.com)
-- ⚡ &nbsp;Open to — SWE · ML Engineering · AI Agent internships
-
-<br clear="right"/>
-
-<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:8B00FF,100:FF00E5&height=3"/>
-
-## <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="28"/> &nbsp;Projects
-
-| Project | Description | Stack | Status |
-|---------|-------------|-------|--------|
-| [**MAIRA**](https://github.com/Surya97141/MAIRA) | AI agent that audits ML codebases — surfaces missing ablations, baseline gaps, unreported hyperparameters | Python · NLP · Static Analysis · OOP | `Active` |
-| [**DRL Aerial Combat**](https://github.com/Surya97141/DRL-Aerial-Combat) | Custom OpenAI Gym multi-agent RL environment for autonomous aerial combat from scratch | Python · OpenAI Gym · PPO · Deep RL | `Active` |
-| **SentinelAI** | Real-time fake news detection — TF-IDF + cosine similarity + HuggingFace zero-shot classification | Python · HuggingFace · Streamlit · REST API | `Shipped` |
-| **Mental Health Predictor** | End-to-end supervised ML pipeline with SMOTE, benchmarked across LR / RF / GBM | Python · scikit-learn · Pandas · NumPy | `Shipped` |
-| **Flood Prediction** | Disaster risk prediction with ETL pipeline + geospatial Streamlit dashboard — Smart India Hackathon | Python · scikit-learn · Streamlit · ETL | `Shipped` |
-
-<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00E5,50:8B00FF,100:00F0FF&height=3"/>
-
-## <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="28"/> &nbsp;Tech Stack
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-0a0a0a?style=flat-square&logo=python&logoColor=00F0FF)
-![C++](https://img.shields.io/badge/C++-0a0a0a?style=flat-square&logo=cplusplus&logoColor=00F0FF)
-![Java](https://img.shields.io/badge/Java-0a0a0a?style=flat-square&logo=openjdk&logoColor=00F0FF)
-
-**ML / AI**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-0a0a0a?style=flat-square&logo=pytorch&logoColor=FF2E9F)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0a0a0a?style=flat-square&logo=tensorflow&logoColor=FF2E9F)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0a0a0a?style=flat-square&logo=scikitlearn&logoColor=FF2E9F)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-0a0a0a?style=flat-square&logo=huggingface&logoColor=FF2E9F)
-![NumPy](https://img.shields.io/badge/NumPy-0a0a0a?style=flat-square&logo=numpy&logoColor=FF2E9F)
-![Pandas](https://img.shields.io/badge/Pandas-0a0a0a?style=flat-square&logo=pandas&logoColor=FF2E9F)
-
-**Tools & Deployment**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-0a0a0a?style=flat-square&logo=fastapi&logoColor=8B00FF)
-![Streamlit](https://img.shields.io/badge/Streamlit-0a0a0a?style=flat-square&logo=streamlit&logoColor=8B00FF)
-![Git](https://img.shields.io/badge/Git-0a0a0a?style=flat-square&logo=git&logoColor=8B00FF)
-![Linux](https://img.shields.io/badge/Linux-0a0a0a?style=flat-square&logo=linux&logoColor=8B00FF)
-![Jupyter](https://img.shields.io/badge/Jupyter-0a0a0a?style=flat-square&logo=jupyter&logoColor=8B00FF)
-![VS Code](https://img.shields.io/badge/VS_Code-0a0a0a?style=flat-square&logo=visualstudiocode&logoColor=8B00FF)
-
-<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:8B00FF,100:FF00E5&height=3"/>
-
-## <img src="https://user-images.githubusercontent.com/74038190/212257463-4d082cb4-7483-4eaf-bc25-6dde2628aabd.gif" width="28"/> &nbsp;GitHub Stats
-
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Surya97141&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0a0a0a&title_color=00F0FF&icon_color=FF2E9F&text_color=c9d1d9" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Surya97141&layout=compact&theme=radical&hide_border=true&langs_count=8&bg_color=0a0a0a&title_color=00F0FF&text_color=c9d1d9" />
-</div>
-
-<div align="center">
-  <img width="70%" src="https://streak-stats.demolab.com/?user=Surya97141&theme=radical&hide_border=true&background=0a0a0a&ring=FF2E9F&fire=00F0FF&currStreakLabel=00F0FF" />
-</div>
-
-<div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Surya97141&theme=react-dark&hide_border=true&area=true&bg_color=0a0a0a&color=00F0FF&line=FF2E9F&point=FFFFFF" />
-</div>
-
-<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00E5,50:8B00FF,100:00F0FF&height=3"/>
-
-## <img src="https://user-images.githubusercontent.com/74038190/212257460-738ff738-247f-4445-a718-cdd0ca76e2db.gif" width="28"/> &nbsp;Achievements
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Surya97141&theme=radical&no-frame=true&row=1&column=6&margin-w=8" />
-</div>
-
-<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:8B00FF,100:FF00E5&height=3"/>
-
-## <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="28"/> &nbsp;Timeline
-
-```text
-2025  ⚡  MAIRA — ML Research Automation Agent                [IN PROGRESS]
-2025  ⚡  DRL Aerial Combat Simulation — Multi-Agent PPO      [IN PROGRESS]
-2025  ✓   Galgotias Creator Hackathon — SentinelAI            [SHIPPED]
-2024  ✓   Smart India Hackathon (SIH) — Flood Prediction      [SHIPPED]
-2024  ✓   Kaggle — Intro to Machine Learning                  [CERTIFIED]
-2024  ✓   IIT Hyderabad — Neural Intelligence & CNNs          [CERTIFIED]
-2024  ✓   Enrolled — B.Tech CSE Data Science @ AKTU           [STARTED]
-```
-
-<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF00E5,50:8B00FF,100:00F0FF&height=3"/>
-
-## Contribution Snake
-
-<div align="center">
-  <img width="95%" src="https://raw.githubusercontent.com/Surya97141/Surya97141/output/github-contribution-grid-snake-dark.svg" alt="contribution snake"/>
-</div>
-
----
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="100%"/>
-
-</div>
-
-<details>
-<summary><b>🖥️ click to open a terminal</b></summary>
-<br>
-
-```bash
-surya@neon-city:~$ whoami
-ml-engineer, ai-systems-builder, sophomore-at-aktu
-
-surya@neon-city:~$ cat current_focus.txt
-MAIRA               → auditing ML codebases for reproducibility gaps
-DRL-Aerial-Combat    → multi-agent PPO in a custom OpenAI Gym env
-
-surya@neon-city:~$ ./run_status_check.sh
-[OK] caffeine level     : nominal
-[OK] open to work       : true
-[OK] response time      : < 24h
-
-surya@neon-city:~$ echo "thanks for stopping by :)"
-thanks for stopping by :)
-```
-
-</details>
-
-<img width="100%" height="3" src="https://capsule-render.vercel.app/api?type=rect&color=0:00F0FF,50:8B00FF,100:FF00E5&height=3"/>
-
-<div align="center">
-  <sub>
-    <i>build things that work. then make them work better.</i>
-    &nbsp;·&nbsp;
-    <a href="https://Surya97141.github.io">portfolio</a>
-    &nbsp;·&nbsp;
-    <a href="https://linkedin.com/in/surya-singh-b575591b5">linkedin</a>
-    &nbsp;·&nbsp;
-    <a href="mailto:pratap742006@gmail.com">email</a>
-  </sub>
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,50:8B00FF,100:FF00E5&height=100&section=footer"/>
+    <!-- CRT scanlines + drifting scan bar over everything -->
+    <rect width="900" height="300" fill="url(#scan)"/>
+    <rect x="0" y="-40" width="900" height="26" fill="#00F0FF" opacity="0.045">
+      <animate attributeName="y" from="-40" to="300" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
