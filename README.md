@@ -24,7 +24,7 @@
 
 <img align="right" width="180" src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif"/>
 
-CS undergrad at **AKTU** (Data Science, 2024–2028), building at the intersection of software engineering, machine learning, and autonomous AI systems.
+CS undergrad at **AKTU** (Data Science,2024–2028), building at the intersection of software engineering, machine learning, and autonomous AI systems.
 
 Two things on the bench right now: **MAIRA** — an agent that audits ML research codebases for reproducibility gaps — and a **Deep RL** multi-agent aerial combat environment built from scratch.
 
