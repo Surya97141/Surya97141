@@ -26,7 +26,7 @@
 
 CS undergrad at **AKTU** (Data Science,2024–2028), building at the intersection of software engineering, machine learning, and autonomous AI systems.
 
-Two things on the bench right now: **MAIRA** — an agent that audits ML research codebases for reproducibility gaps — and a **Deep RL** multi-agent aerial combat environment built from scratch.
+A thing on the bench right now:**Deep RL** multi-agent aerial combat environment built from scratch.
 
 - 🔭 Working on — `MAIRA` · `DRL Aerial Combat Sim`
 - 🌱 Learning — LLM fine-tuning · agentic frameworks · production ML
