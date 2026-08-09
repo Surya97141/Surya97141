@@ -3,7 +3,6 @@
      All banner/divider/stack/timeline art = hand-built animated
      SVG in ./assets — pure SMIL, no generators, no JS.
      ============================================================ -->
-
 <div align="center">
   <img src="./assets/surya-hud-banner.svg" width="100%" alt="Surya Pratap Singh — ML Systems HUD"/>
 </div>
