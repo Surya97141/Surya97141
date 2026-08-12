@@ -27,7 +27,7 @@ CS undergrad at **AKTU** (Data Science,2024–2028), building at the intersectio
 
 A thing on the bench right now:**Deep RL** multi-agent aerial combat environment built from scratch.
 
-- 🔭 Working on — `MAIRA` · `DRL Aerial Combat Sim`
+- 🔭 Working on — `MAIRA` · `DRL Aerial Combat Simulator`
 - 🌱 Learning — LLM fine-tuning · agentic frameworks · production ML
 - 💬 Ask me about — Python · scikit-learn · Deep RL · NLP pipelines
 - ⚡ Open to — SWE · ML Engineering · AI Agent internships
