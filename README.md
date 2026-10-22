@@ -1,5 +1,4 @@
 <!-- Surya Pratap Singh · GitHub profile · palette: #090D12 #202832 #8996A3 #9BBF88 #D9AC65 #9CCBDE -->
-
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=0:090D12,55:161C24,100:202832&height=230&section=header&text=SURYA%20PRATAP%20SINGH&fontSize=46&fontColor=E6EBEF&fontAlign=40&fontAlignY=38&desc=AI%20Systems%20Engineer%20%20%E2%80%A2%20%20ML%20%20%E2%80%A2%20%20Deep%20RL%20%20%E2%80%A2%20%20Agents&descSize=15&descAlign=40&descAlignY=58&animation=fadeIn" alt="Surya Pratap Singh"/>
