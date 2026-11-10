@@ -5,7 +5,6 @@
 <a href="https://github.com/Surya97141">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=2600&pause=1000&color=9CCBDE&center=true&vCenter=true&width=620&lines=Building+autonomous+agents+that+learn+by+doing;Multi-agent+deep+RL+in+a+custom+Gym+environment;An+AI+agent+that+audits+ML+research+code;CS+(Data+Science)+%40+AKTU+%C2%B7+2024%E2%80%932028" alt="typing intro"/>
 </a>
-
 <br/>
 
 <a href="https://Surya97141.github.io"><img src="https://img.shields.io/badge/Portfolio-090D12?style=flat-square&logo=vercel&logoColor=9CCBDE"/></a>
@@ -30,7 +29,7 @@
               ▄██████████████████████████████████████▄▄▄▄▄▄▄
               ██████████████████████████████████████████████████▄▄
               ▀███████████████████████████████████████████████████
-              ▄███████████████████████████████████████████████████
+              ▄██████████████████████████████████████████████████
               ██████████████████████████████████████████████████▀▀
               ▀██████████████████████████████████████▀▀▀▀▀▀▀
                ▀███████████████████████████████▀
